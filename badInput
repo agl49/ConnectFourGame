@@ -1,0 +1,520 @@
+State that cause the bug (master board)
+Turn 29
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   _   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   _   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 4
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   _
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 30
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Max
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   _
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 4
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 5
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 6
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   O   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 31
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   _
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 4
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 32
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Max
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   _   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 4
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   O   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 33
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   _   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   O   O   X   X   _   X
+R3 O   X   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 34
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Max
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 X   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 35
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   _   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   X   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   O   X   O   X   _   O
+R2 X   O   X   X   X   X   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 36
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Max
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 O   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 37
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   _   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Node: 1
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Node: 2
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   _   X   O   X   X   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Node: 3
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   O   X   O   X   X   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 38
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Max
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 O   _   X   O   X   _   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 39
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 _   _   X   O   X   _   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 _   _   X   O   X   _   O
+R2 X   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 40
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 _   _   X   O   X   _   O
+R2 O   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+Performing miniMaxAB for Max
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 _   _   X   O   X   _   O
+R2 O   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 O   O   O   X   X   O   X
+End of path
+
+
+Turn 41
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 _   _   X   O   X   _   O
+R2 O   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 !   O   O   X   X   O   X
+Performing miniMaxAB for Min
+
+Path generated for move
+Node: 0
+  C0  C1  C2  C3  C4  C5  C6
+R5 _   _   O   O   O   _   O
+R4 _   _   O   X   X   _   X
+R3 _   _   X   O   X   _   O
+R2 O   O   X   X   X   O   X
+R1 O   X   O   X   O   O   X
+R0 !   O   O   X   X   O   X
+End of path
+
+It's A Draw!
+Nodes generated: 2149422
+Nodes Expanded: 324472
+----------------------------------------------------------------------------------------------------
+Win/Lose Statistics
+EV 1
+  MAX Wins: 0
+  MAX Losses: 1
+EV 2
+  MAX Wins: 0
+  MAX Losses: 0
+  MIN Wins: 0
+  MIN Losses: 0
+EV 3
+  MIN Wins: 1
+  MIN Losses: 0
+Terminating program...
+

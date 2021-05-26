@@ -1,0 +1,436 @@
+Ran with only -f flag
+Note also times ran while other processes were running on pc
+
+Game (EV1 vs EV2, depth 2)
+winner = game(xMax, oMin, 2, 2, firstEval, secondEval, fastMode, noPathMode);
+
+Performance counter stats for './output -f':
+
+             24.62 msec task-clock                #    0.273 CPUs utilized
+                 7      context-switches          #    0.284 K/sec
+                 0      cpu-migrations            #    0.000 K/sec
+               127      page-faults               #    0.005 M/sec
+        44,120,471      cycles                    #    1.792 GHz
+        47,073,079      instructions              #    1.07  insn per cycle
+         7,611,142      branches                  #  309.205 M/sec
+           131,865      branch-misses             #    1.73% of all branches
+
+       0.090191386 seconds time elapsed
+
+       0.025778000 seconds user
+       0.000000000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 0.02
+        System time (seconds): 0.00
+        Percent of CPU this job got: 95%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3456
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 135
+        Voluntary context switches: 1
+        Involuntary context switches: 3
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+Game (EV1(Depth 2) vs EV3(Depth 4))
+winner = game(xMax, oMin, 2, 4, firstEval, thirdEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+             82.60 msec task-clock                #    0.837 CPUs utilized
+               414      context-switches          #    0.005 M/sec
+                 0      cpu-migrations            #    0.000 K/sec
+               131      page-faults               #    0.002 M/sec
+       146,312,947      cycles                    #    1.771 GHz
+       187,136,690      instructions              #    1.28  insn per cycle
+        29,557,464      branches                  #  357.850 M/sec
+           348,945      branch-misses             #    1.18% of all branches
+
+       0.098625026 seconds time elapsed
+
+       0.077136000 seconds user
+       0.008119000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 0.07
+        System time (seconds): 0.00
+        Percent of CPU this job got: 95%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3380
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 137
+        Voluntary context switches: 1
+        Involuntary context switches: 16
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+Game (EV2(Depth 2) vs EV3(Depth 8))
+winner = game(xMax, oMin, 2, 8, secondEval, thirdEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+          5,473.43 msec task-clock                #    0.986 CPUs utilized
+             1,379      context-switches          #    0.252 K/sec
+                 4      cpu-migrations            #    0.001 K/sec
+               132      page-faults               #    0.024 K/sec
+     9,815,758,393      cycles                    #    1.793 GHz
+    13,905,450,413      instructions              #    1.42  insn per cycle
+     2,063,501,138      branches                  #  377.003 M/sec
+        19,779,612      branch-misses             #    0.96% of all branches
+
+       5.551426438 seconds time elapsed
+
+       5.469270000 seconds user
+       0.012011000 seconds sys
+    
+    Command being timed: "./output -f"
+        User time (seconds): 4.68
+        System time (seconds): 0.01
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.77
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3476
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 142
+        Voluntary context switches: 0
+        Involuntary context switches: 1337
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+Game (EV1(Depth 4) vs EV2(Depth 2))
+winner = game(xMax, oMin, 4, 2, firstEval, secondEval, fastMode, noPathMode);
+
+Performance counter stats for './output -f':
+
+            202.25 msec task-clock                #    0.925 CPUs utilized
+               668      context-switches          #    0.003 M/sec
+                 0      cpu-migrations            #    0.000 K/sec
+               130      page-faults               #    0.643 K/sec
+       359,532,321      cycles                    #    1.778 GHz
+       433,205,178      instructions              #    1.20  insn per cycle
+        67,898,777      branches                  #  335.710 M/sec
+           709,364      branch-misses             #    1.04% of all branches
+
+       0.218674389 seconds time elapsed
+
+       0.198221000 seconds user
+       0.008090000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 0.25
+        System time (seconds): 0.00
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.26
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3460
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 136
+        Voluntary context switches: 0
+        Involuntary context switches: 68
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+Game (EV1(Depth 4) vs EV3(Depth 4))
+winner = game(xMax, oMin, 4, 4, firstEval, thirdEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+            391.68 msec task-clock                #    0.896 CPUs utilized
+               316      context-switches          #    0.807 K/sec
+                 0      cpu-migrations            #    0.000 K/sec
+               130      page-faults               #    0.332 K/sec
+       701,236,379      cycles                    #    1.790 GHz
+       896,471,468      instructions              #    1.28  insn per cycle
+       139,964,260      branches                  #  357.341 M/sec
+         1,503,455      branch-misses             #    1.07% of all branches
+
+       0.436933018 seconds time elapsed
+
+       0.355178000 seconds user
+       0.038606000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 0.36
+        System time (seconds): 0.00
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.37
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3496
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 138
+        Voluntary context switches: 1
+        Involuntary context switches: 98
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+Game (EV2(Depth 4) vs EV3(Depth 8))
+winner = game(xMax, oMin, 4, 8, secondEval, thirdEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+          5,322.55 msec task-clock                #    0.974 CPUs utilized
+             2,059      context-switches          #    0.387 K/sec
+                 1      cpu-migrations            #    0.000 K/sec
+               133      page-faults               #    0.025 K/sec
+     9,532,789,764      cycles                    #    1.791 GHz
+    12,917,678,631      instructions              #    1.36  insn per cycle
+     1,916,319,161      branches                  #  360.038 M/sec
+        18,810,989      branch-misses             #    0.98% of all branches
+
+       5.462894482 seconds time elapsed
+
+       5.245345000 seconds user
+       0.084214000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 3.61
+        System time (seconds): 0.00
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.66
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3480
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 141
+        Voluntary context switches: 1
+        Involuntary context switches: 710
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+Game (EV1(Depth 8) vs EV2 (Depth 2))
+winner = game(xMax, oMin, 8, 2, firstEval, secondEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+         61,643.51 msec task-clock                #    0.982 CPUs utilized
+            16,280      context-switches          #    0.264 K/sec
+                36      cpu-migrations            #    0.001 K/sec
+               131      page-faults               #    0.002 K/sec
+   110,496,549,765      cycles                    #    1.793 GHz
+   142,836,739,126      instructions              #    1.29  insn per cycle
+    22,169,883,737      branches                  #  359.647 M/sec
+       296,304,972      branch-misses             #    1.34% of all branches
+
+      62.779667072 seconds time elapsed
+
+      61.288020000 seconds user
+       0.407202000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 57.41
+        System time (seconds): 0.12
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.37
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3500
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 142
+        Voluntary context switches: 0
+        Involuntary context switches: 12713
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+Game (EV1(Depth 8) vs EV3(Depth 4))
+winner = game(xMax, oMin, 8, 4, firstEval, thirdEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+         55,189.23 msec task-clock                #    0.982 CPUs utilized
+            13,861      context-switches          #    0.251 K/sec
+                32      cpu-migrations            #    0.001 K/sec
+               134      page-faults               #    0.002 K/sec
+    98,934,805,657      cycles                    #    1.793 GHz
+   128,100,957,480      instructions              #    1.29  insn per cycle
+    19,888,354,984      branches                  #  360.367 M/sec
+       273,792,176      branch-misses             #    1.38% of all branches
+
+      56.195589455 seconds time elapsed
+
+      54.895748000 seconds user
+       0.331033000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 43.67
+        System time (seconds): 0.09
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.47
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3536
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 146
+        Voluntary context switches: 1
+        Involuntary context switches: 10306
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+
+Game (EV2(Depth 8) vs EV3(Depth 8))
+winner = game(xMax, oMin, 8, 8, secondEval, thirdEval, fastMode, noPathMode);
+
+ Performance counter stats for './output -f':
+
+         15,954.25 msec task-clock                #    0.972 CPUs utilized
+             5,043      context-switches          #    0.316 K/sec
+                10      cpu-migrations            #    0.001 K/sec
+               132      page-faults               #    0.008 K/sec
+    28,585,707,987      cycles                    #    1.792 GHz
+    38,709,259,602      instructions              #    1.35  insn per cycle
+     5,740,173,333      branches                  #  359.790 M/sec
+        57,089,517      branch-misses             #    0.99% of all branches
+
+      16.413538770 seconds time elapsed
+
+      15.836337000 seconds user
+       0.131902000 seconds sys
+
+        Command being timed: "./output -f"
+        User time (seconds): 12.31
+        System time (seconds): 0.01
+        Percent of CPU this job got: 98%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.50
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3484
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 142
+        Voluntary context switches: 1
+        Involuntary context switches: 2472
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+All of it at once
+
+        Command being timed: "./output -f"
+        User time (seconds): 109.54
+        System time (seconds): 0.17
+        Percent of CPU this job got: 99%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 1:50.74
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3568
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 146
+        Voluntary context switches: 1
+        Involuntary context switches: 20063
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0
+
+        107,426.71 msec task-clock                #    0.997 CPUs utilized
+            13,385      context-switches          #    0.125 K/sec
+                48      cpu-migrations            #    0.000 K/sec
+               133      page-faults               #    0.001 K/sec
+   192,768,793,432      cycles                    #    1.794 GHz
+   356,034,790,870      instructions              #    1.85  insn per cycle
+    54,801,516,803      branches                  #  510.129 M/sec
+       416,514,276      branch-misses             #    0.76% of all branches
+
+     107.751767103 seconds time elapsed
+
+     107.319288000 seconds user
+       0.139868000 seconds sys
+
+
